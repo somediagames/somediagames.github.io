@@ -1,0 +1,17 @@
+
+/*  Created by SoMedia OSAR on 12/03/2019.
+//  Copyright © 2019 SoMedia OSAR. All rights reserved.
+*//
+
+
+.gameBox{
+  width: 1000px;
+  height: 500px;
+  border: 1px solid #000;
+}
+
+.gameBox h1{
+  position: absolute;
+  top: 1000px;
+  left: 500px;
+}

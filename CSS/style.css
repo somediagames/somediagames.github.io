@@ -1,0 +1,21 @@
+/*Created by SoMedia OSAR on 12/03/2019.
+//  Copyright © 2019 SoMedia OSAR. All rights reserved.
+*/
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+/* Center canvas and stuff */
+canvas {
+	background-color: rgb(37, 3, 132);
+	border: 3px solid black;
+	display: block;
+	position: relative;
+	margin: auto;
+	top: 10;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}

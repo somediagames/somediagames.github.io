@@ -1,3 +1,1 @@
 # somediagames.github.io
-//////
-//

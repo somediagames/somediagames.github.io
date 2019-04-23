@@ -1,0 +1,107 @@
+<!--Created by SoMedia OSAR on 12/03/2019.
+//  Copyright © 2019 SoMedia OSAR. All rights reserved.
+//-->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>SoMedia</title>
+    <link rel="stylesheet" href="CSS/master.css">
+    <link rel="stylesheet" href="CSS/game.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+
+  </head>
+  <body class="container">
+      <header id="header">
+          <h1><img src="Logo.png" id="logo"><a href="index.html"> - We waste your time </a></h1>
+      </header>
+
+          <!-- Menu -->
+          <nav id="navbar">
+            <div class="container">
+              <ul>
+                <li><a href="index.html"><strong>Home</strong></a></li>
+                <li><a href="game.html"><strong>Games</strong></a></li>
+                <li><a href="campaigns.html"><strong>Campaigns</strong></a></li>
+                <a href="https://www.instagram.com/somediagames/" target="_blank"><img id="SM-icons" src="instagram.png" alt=""></a>
+              </ul>
+            </div>
+          </nav>
+
+          <section id="showcase">
+            <div class="container">
+              <h2>This is our game - enjoy!</h2>
+            </div>
+          </section>
+
+<head>
+  	<meta charset="UTF-8">
+      <title>Asteroids</title>
+
+          	<!-- Stylesheets -->
+        <link rel="stylesheet" href="css/style.css">
+
+
+          	<!-- Lib files -->
+      	<script src="js/lib/class.js"></script>
+
+          	<!-- Before states -->
+      	<script src="js/points.js"></script>
+        <script src="js/polygon.js"></script>
+      	<script src="js/ship.js"></script>
+      	<script src="js/asteroid.js"></script>
+        <script src="js/bullet.js"></script>
+
+          	<!-- States -->
+        <script src="js/state.js"></script>
+      	<script src="js/gameState.js"></script>
+      	<script src="js/menuState.js"></script>
+        <script src="js/endState.js"></script>
+
+          	<!-- Managers and listeners -->
+      	<script src="js/canvas.js"></script>
+      	<script src="js/input.js"></script>
+
+          	<!-- Main file -->
+        <script src="js/main.js"></script>
+
+</head>
+  <body>
+  	<input type="text" id="namefield">
+
+  	<script>
+  	   // create, initiate and run game
+    	var game = new Game()
+      game.run();
+
+      var keys = {};
+      window.addEventListener("keydown",
+          function(e){
+            keys[e.keyCode] = true;
+            switch(e.keyCode){
+              case 37: case 39: case 38:  case 40: // Arrow keys
+              case 32: e.preventDefault(); break; // Space
+              default: break; // do not block other keys
+            }
+          },
+          false);
+          window.addEventListener('keyup',
+              function(e){
+                  keys[e.keyCode] = false;
+                },
+                false);
+    </script>
+
+</div>
+  <footer id="main-footer">
+    <li><a href="pages/contact.html">Contact</a></li>
+    <li><a href="pages/terms-and-conditions.html">Terms and conditions</a></li>
+    <li><a href="pages/privacy-policy">Privacy Policy</a></li>
+    <li><a href="pages/cookie-policy">Cookie policy</a></li>
+    <li><a href="pages/code-of-conduct.html">Code of conduct</a></li>
+    <li id="main-footer-copyright">&copy; 2019 SoMedia</li>
+  </footer>
+</body>
+</html>
