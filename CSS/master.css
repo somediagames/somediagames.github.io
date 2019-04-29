@@ -1,3 +1,5 @@
+
+/* GENERAL */
 body{
   background-color: #f4f4f4;
   color: #555;
@@ -22,6 +24,8 @@ a{
   overflow: auto;
 }
 
+
+/* LOGO */
 header img{
   text-align: left;
   margin: 0;
@@ -42,6 +46,8 @@ header a{
   transform: translateY(-50%);
 }
 
+
+/* SOCIALMEDIA */
 #SM-icons{
   float: right;
   width: 16px;
@@ -59,6 +65,8 @@ header a{
 }
 
 
+
+/* NAVIGATION TEXT */
 #navbar a{
   color: rgb(204, 0, 0);
   text-shadow: 2px 2px 4px #389ebe;
@@ -67,6 +75,8 @@ header a{
   padding-right: 15px;
 }
 
+
+/* SIDE NAME */
 #showcase{
   background-image: url();
   background-position: center right;
@@ -83,6 +93,8 @@ header a{
   padding-top: 30px;
 }
 
+
+/* SIDETEXT */
 #main{
   float: right;
   width: 70%;
@@ -90,6 +102,8 @@ header a{
   box-sizing: border-box;
 }
 
+
+/* SIDEBARS */
 #sidebar{
   float: left;
   width: 30%;
@@ -100,6 +114,8 @@ header a{
   justify-content: left;
 }
 
+
+/* FOOTER */
 #main-footer{
   background: #333;
   padding: 10px 0;
@@ -129,6 +145,8 @@ header a{
   margin-right: 20px;
 }
 
+
+/* SCROOL FUCK */
 @media(max-width:600px){
   #main{
     width: 100%;
@@ -140,6 +158,8 @@ header a{
   }
 }
 
+
+/* CAMPAIGNS */
 #campaigns{
   width: 320px;
   height: 320px;
