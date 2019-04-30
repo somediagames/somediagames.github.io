@@ -14,9 +14,6 @@ body{
 a{
   text-decoration: none;
 }
-#header a{
-  color: rgb(192, 208, 0)
-}
 
 .container{
   width: 80%;
@@ -35,17 +32,6 @@ header img{
   transform: translateY(-50%);
 }
 
-header a{
-  text-align: left;
-  font-family: 'Audiowide';
-  font-size: 25px;
-  margin: 0;
-  position: relative;
-  top: -25px;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
 
 /* SOCIALMEDIA */
 #SM-icons{
@@ -55,24 +41,13 @@ header a{
 }
 
 #logo{
-  width: 300px;
-  height: 75px;
+  width: 150px;
+  height: 37.5px;
 }
 
 #main-header{
   background-color: cadetblue;
   color: #fff
-}
-
-
-
-/* NAVIGATION TEXT */
-#navbar a{
-  color: rgb(204, 0, 0);
-  text-shadow: 2px 2px 4px #389ebe;
-  text-decoration: none;
-  font-size: 18px;
-  padding-right: 15px;
 }
 
 
@@ -114,14 +89,21 @@ header a{
   justify-content: left;
 }
 
+#img1{
+  width: 300px;
+  height: 180px;
+}
 
-/* FOOTER */
+
+/* FOOTERS */
 #main-footer{
   background: #333;
   padding: 10px 0;
   width: 100%;
-  margin-top: 40px;
+  margin-top: 700px;
+  position: bottom;
 }
+
 #main-footer ul{
   display: table;
   float: left;
